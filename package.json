@@ -1,0 +1,22 @@
+{
+  "name": "bowwow api",
+  "version": "0.0.1",
+  "description": "bowwow API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bowwow"
+  },
+  "keywords": [
+    "bowwow",
+    "api"
+  ],
+  "author": "bowwow",
+  "bugs": {
+    "url": "https://github.com/bowwow/api/issues"
+  },
+  "homepage": "https://github.com/bowwow/api"
+}
