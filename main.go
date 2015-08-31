@@ -2,6 +2,7 @@ package main
 
 import (
 	"./handler"
+	"./router"
 	"github.com/gorilla/context"
 	"github.com/justinas/alice"
 	"net/http"
@@ -11,7 +12,7 @@ func main() {
 
 	commonHandlers := alice.New(context.ClearHandler, handler.LoggingHandler, handler.RecoverHandler)
 
-	router := NewRouter()
+	router := router.NewRouter()
 
 	router.Get("/bowwo", commonHandlers.ThenFunc(handler.BowwoHandler))
 
